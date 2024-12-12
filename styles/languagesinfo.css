@@ -1,0 +1,36 @@
+.languages-info{
+    width: 267px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.languages-info_item {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 104%;
+}
+
+.languages-info_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.languages-info_progress {
+    background-color: #28D979;
+    width: 160px;
+    height: 11px;
+    border-radius: 3px;
+}
+
+.languages-info_progress.hindi {
+    width: 129px;
+   margin-right: 31px;
+}
+
+.languages-info_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

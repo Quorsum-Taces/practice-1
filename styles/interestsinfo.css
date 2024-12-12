@@ -1,0 +1,53 @@
+.extra{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.interests-info{
+    display: flex;
+    flex-direction: column;
+    width: 268px;
+    height: 177px;
+    padding: 12px;
+    gap: 16px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 268px;
+    height: 92px;
+    padding: 12px;
+    gap: auto;
+    color: #fff;
+    background: #000;  
+}
+
+.contact-text{
+    font-weight: 400;
+    font-size: 10px;
+    color: #ddd;
+}
+
+.interests-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    box-sizing: border-box;
+}
+
+.interests-item{
+    color: #000;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 10px;
+    border-radius: 40px;
+}
+
+.interests-item_text{
+    font-size: 8px;
+    font-weight: 400;
+}

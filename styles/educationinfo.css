@@ -1,0 +1,60 @@
+.education-info{
+    display: flex;
+    flex-direction: column;
+    width: 268px;
+    height: 289px;
+    padding: 12px;
+    gap: 16px;
+}
+
+.education-info_header{
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.tags{
+    font-weight: 400;
+    font-size: 8px;
+}
+
+.school-text{
+    font-weight: 400;
+    font-size: 8px;
+}
+
+.education-info_list-item.selected {
+    color: #fff;
+    background: #28D979;
+    padding: 8px;
+}
+
+.education-info_list-item {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    color: #000;
+}
+.education-info_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.education-info_list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.tags.green{
+    color: #149063;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
